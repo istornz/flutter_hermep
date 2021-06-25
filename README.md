@@ -1,14 +1,12 @@
-# hermep
+# Hermep
 
-A new Flutter package project.
+An MVVM state management library which let full access to widget state.
 
-## Getting Started
+## 🧐 What is it ?
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+Hermep provide a way to create an MVVM page structure and let you full access to the widget state.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+To summarize It's just a very simple wrapper to split your code logic 😎
+
+## 👻 Getting started
+
