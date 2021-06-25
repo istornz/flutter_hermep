@@ -1,6 +1,6 @@
 name: hermep
-description: A new Flutter package project.
-version: 0.0.1
+description: State management library which let developer full access to widget state
+version: 0.1.0
 homepage:
 
 environment:

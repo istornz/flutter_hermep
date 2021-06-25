@@ -3,7 +3,6 @@ import 'package:flutter/widgets.dart';
 import 'presenter.dart';
 
 abstract class HermepView {}
-
 abstract class HermepPage<M, P> extends State {
   late Map<ValueNotifier<bool>, AnimationController> animationControllers;
   late P presenter;
