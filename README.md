@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="medias/hermep.png" />
+  <img src="https://i.ibb.co/tL3G0Lf/hermep.png" />
 </p>
 
 An MVVM state management library which let full access to widget state.
