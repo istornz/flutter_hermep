@@ -2,13 +2,25 @@ import 'package:flutter/animation.dart';
 import 'package:flutter/widgets.dart';
 import 'presenter.dart';
 
+/// the view interface to call all view logic
 abstract class HermepView {}
+
+/// create a MVVM pattern page
 abstract class HermepPage<M, P> extends State {
+  /// contain all animation controllers mapped with
+  /// the value notifier associated to launch/stop the animation
   late Map<ValueNotifier<bool>, AnimationController> animationControllers;
+
+  /// presenter which contain all the logical method to present in the view
   late P presenter;
+
+  /// view model which contain all data arguments related to your view
   late M viewModel;
 
+  /// create your presenter inside this method
   HermepPresenter createPresenter();
+
+  // create all your animations here and assign them to ```animationControllers```
   void createAnimations();
 
   @override
@@ -25,6 +37,7 @@ abstract class HermepPage<M, P> extends State {
     this._initAnimations();
   }
 
+  /// page initializer which create & assign view model & presenter
   void _initPage(HermepPresenter presenter) {
     presenter.init();
     this.viewModel = presenter.viewModel;
@@ -32,6 +45,7 @@ abstract class HermepPage<M, P> extends State {
     this.animationControllers = {};
   }
 
+  /// init all the animation controllers
   void _initAnimations() {
     this.animationControllers.forEach((notifier, animation) {
       notifier.addListener(() {
@@ -44,6 +58,8 @@ abstract class HermepPage<M, P> extends State {
     });
   }
 
+  /// called when page has been disposed
+  /// all animation controllers was disposed
   void disposePage() {
     (this.presenter as HermepPresenter).dispose();
     this.animationControllers.forEach((notifier, animation) {
@@ -52,5 +68,6 @@ abstract class HermepPage<M, P> extends State {
     });
   }
 
+  /// refresh the page view
   void refreshView() => setState(() {});
 }
