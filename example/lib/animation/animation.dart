@@ -15,9 +15,9 @@ class AnimationPage extends StatefulWidget {
   _AnimationPageState createState() => _AnimationPageState();
 }
 
-class _AnimationPageState extends HermepPage<AnimationModel, AnimationPresenter>
+class _AnimationPageState
+    extends HermepPage<AnimationModel, AnimationPresenter, AnimationPage>
     with AnimationView, TickerProviderStateMixin {
-  
   @override
   HermepPresenter createPresenter() => AnimationPresenter(this);
 

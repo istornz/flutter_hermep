@@ -6,7 +6,7 @@ import 'presenter.dart';
 abstract class HermepView {}
 
 /// create a MVVM pattern page
-abstract class HermepPage<M, P> extends State {
+abstract class HermepPage<M, P, W extends StatefulWidget> extends State<W> {
   /// contain all animation controllers mapped with
   /// the value notifier associated to launch/stop the animation
   late Map<ValueNotifier<bool>, AnimationController> animationControllers;

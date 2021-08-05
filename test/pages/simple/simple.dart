@@ -17,9 +17,11 @@ class SimplePage extends StatefulWidget {
   _SimplePageState createState() => _SimplePageState();
 }
 
-class _SimplePageState extends HermepPage<SimpleModel, SimplePresenter> with SimpleView {
+class _SimplePageState
+    extends HermepPage<SimpleModel, SimplePresenter, SimplePage>
+    with SimpleView {
   @override
-  void createAnimations() { }
+  void createAnimations() {}
 
   @override
   HermepPresenter createPresenter() => SimplePresenter(this);

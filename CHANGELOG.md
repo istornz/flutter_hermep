@@ -1,3 +1,7 @@
+## 0.1.3
+
+- Support page arguments
+
 ## 0.1.2
 
 - Upgrade README.md

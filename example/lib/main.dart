@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hermep/hermep.dart';
 
 void main() => runApp(MyApp());
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -56,9 +57,10 @@ class HomePage extends StatefulWidget {
   _HomePageState createState() => _HomePageState();
 }
 
-class _HomePageState extends HermepPage<HomeModel, HomePresenter> with HomeView {
+class _HomePageState extends HermepPage<HomeModel, HomePresenter, HomePage>
+    with HomeView {
   @override
-  void createAnimations() { }
+  void createAnimations() {}
 
   @override
   HermepPresenter createPresenter() => HomePresenter(this);
