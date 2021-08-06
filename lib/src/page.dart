@@ -20,8 +20,11 @@ abstract class HermepPage<M, P, W extends StatefulWidget> extends State<W> {
   /// create your presenter inside this method
   HermepPresenter createPresenter();
 
-  // create all your animations here and assign them to ```animationControllers```
+  /// create all your animations here and assign them to ```animationControllers```
   void createAnimations();
+
+  /// called after the view was rendered 
+  void afterViewInit();
 
   @override
   void dispose() {
@@ -35,6 +38,7 @@ abstract class HermepPage<M, P, W extends StatefulWidget> extends State<W> {
     this._initPage(this.createPresenter());
     this.createAnimations();
     this._initAnimations();
+    WidgetsBinding.instance!.addPostFrameCallback((_) => afterViewInit());
   }
 
   /// page initializer which create & assign view model & presenter

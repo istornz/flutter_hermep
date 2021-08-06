@@ -22,6 +22,9 @@ class _AnimationPageState
   HermepPresenter createPresenter() => AnimationPresenter(this);
 
   @override
+  void afterViewInit() { }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(

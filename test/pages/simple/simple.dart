@@ -24,6 +24,9 @@ class _SimplePageState
   void createAnimations() {}
 
   @override
+  void afterViewInit() { }
+
+  @override
   HermepPresenter createPresenter() => SimplePresenter(this);
 
   @override
