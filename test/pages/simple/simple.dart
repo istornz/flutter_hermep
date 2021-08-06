@@ -11,7 +11,7 @@ abstract class SimpleView {
 
 /* PAGE */
 class SimplePage extends StatefulWidget {
-  SimplePage({Key? key});
+  SimplePage({Key? key}) : super(key: key);
 
   @override
   _SimplePageState createState() => _SimplePageState();

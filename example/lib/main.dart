@@ -51,7 +51,7 @@ abstract class HomeView {
 
 /* PAGE */
 class HomePage extends StatefulWidget {
-  HomePage({Key? key});
+  HomePage({Key? key}) : super(key: key);
 
   @override
   _HomePageState createState() => _HomePageState();

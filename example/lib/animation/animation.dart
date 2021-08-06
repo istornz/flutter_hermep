@@ -9,7 +9,7 @@ abstract class AnimationView {
 }
 
 class AnimationPage extends StatefulWidget {
-  AnimationPage({Key? key});
+  AnimationPage({Key? key}) : super(key: key);
 
   @override
   _AnimationPageState createState() => _AnimationPageState();

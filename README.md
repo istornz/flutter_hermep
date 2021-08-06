@@ -45,7 +45,7 @@ class YourClassPresenter with HermepPresenter<YourClassModel, YourClassView> {
 abstract class YourClassView {}
 
 class YourClassPage extends StatefulWidget {
-  YourClassPage({Key? key});
+  YourClassPage({Key? key}) : super(key: key);
 
   @override
   _YourClassPageState createState() => _YourClassPageState();
@@ -54,6 +54,9 @@ class YourClassPage extends StatefulWidget {
 class _YourClassPageState extends HermepPage<YourClassModel, YourClassPresenter> with YourClassView {
   @override
   void createAnimations() { }
+
+  @override
+  void afterViewInit() { }
 
   @override
   HermepPresenter createPresenter() => YourClassPresenter(this);

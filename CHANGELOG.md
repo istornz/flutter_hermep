@@ -1,3 +1,7 @@
+## 0.1.5
+
+- Add missing super key
+
 ## 0.1.4
 
 - Add after view init method
