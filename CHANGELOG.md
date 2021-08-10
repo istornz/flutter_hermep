@@ -1,3 +1,9 @@
+## 0.1.6
+
+- Add a way to test Hermep page
+- Reorganize test folder
+- Improve README.md
+
 ## 0.1.5
 
 - Add missing super key

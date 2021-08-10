@@ -1,18 +1,20 @@
 <p align="center">
-  <img src="https://s6.gifyu.com/images/hermep.png" />
+  <img style="max-width: 400px" src="https://s6.gifyu.com/images/ZtNdeDR.png" />
 </p>
 
-An MVVM state management library which let full access to widget state.
+# Hermep
+
+An **MVVM state** management library which let **full access** to widget state.
 
 ## 🧐 What is it ?
 
-Hermep provide a way to create an MVVM page structure and let you full access to the widget state.
+Hermep provide a way to create an **MVVM** page structure and let you **full access** to the widget state. Coding & testing will be easier 😇
 
-To summarize It's just a very simple wrapper to split your code logic 😎
+To summarize It's just a **very simple wrapper** to split your code logic 😎
 
 ## 👻 Getting started
 
-- Create a model file ```<your_class>_viewmodel.dart```
+- Create a **model** file ```<your_class>_viewmodel.dart```
 
 ```dart
 class YourClassModel with HermepModel {
@@ -20,7 +22,7 @@ class YourClassModel with HermepModel {
 }
 ```
 
-- Create the presenter file ```<your_class>_presenter.dart```
+- Create the **presenter** file ```<your_class>_presenter.dart```.
 
 ```dart
 class YourClassPresenter with HermepPresenter<YourClassModel, YourClassView> {
@@ -39,7 +41,7 @@ class YourClassPresenter with HermepPresenter<YourClassModel, YourClassView> {
 }
 ```
 
-- Create the page file ```<your_class>.dart```
+- Create the **page** file ```<your_class>.dart```.
 
 ```dart
 abstract class YourClassView {}
@@ -70,9 +72,9 @@ class _YourClassPageState extends HermepPage<YourClassModel, YourClassPresenter>
 
 ## 💫 Animations
 
-Yes you can use animations with Hermep and it's very easy !
+Yes you can use **animations** with Hermep and it's very easy !
 
-- In your model.dart file, create the animation & value notifier (used to trigger animation)
+- In your ```model.dart``` file, create the **animation** & **value notifier** (used to trigger animation)
 
 ```dart
 class YourClassModel with HermepModel {
@@ -83,7 +85,7 @@ class YourClassModel with HermepModel {
 }
 ```
 
-- In your presenter.dart file, init the animation value notifier
+- In your ```presenter.dart``` file, init the animation **value notifier**.
 
 ```dart
 // [...]
@@ -94,7 +96,7 @@ void init() {
 // [...]
 ```
 
-- In your page, override the ```createAnimations()``` method to init the animation controller & assign animation tween
+- In your page, override the ```createAnimations()``` method to init the animation controller & assign animation tween.
 
 ```dart
 // [...]
@@ -116,7 +118,7 @@ void createAnimations() {
 // [..]
 ```
 
-- To trigger ```on``` or ```off``` your animation, just set the value notifier in your presenter 🎉
+- To trigger ```on``` or ```off``` your animation, just **set the value notifier** in your presenter 🎉.
 
 ```dart
 // launch the animation
@@ -125,3 +127,23 @@ this.viewModel.triggerAnimation.value = true;
 // stop the animation
 this.viewModel.triggerAnimation.value = false;
 ```
+
+## ✅ Testing
+
+Hermep can be **fully tested** by getting the **presenter** & **model** instances directly from your tests. This can be achieved with only *3 lines* of code 😎.
+
+```dart
+final dynamic yourClassPageState = tester.state(find.byType(YourClassPage));
+final YourClassPresenter presenter = yourClassPageState.presenter;
+final YourClassModel model = yourClassPageState.viewModel;
+```
+
+You can now check all your **model data** & **trigger** some functions from your presenter in your test 🚀.
+
+## Psst 🤫 !
+
+<p align="center">
+  <img width="300px" src="https://s6.gifyu.com/images/dbcd435-1b94d299-051c-4cb6-9de9-51cf6e076bf9.png" />
+</p>
+
+You can use Hermep with [Koby for VSCode](https://marketplace.visualstudio.com/items?itemName=istornz.koby) to generate **all needed files** (presenter, model & page) with 2 clicks 🤩.

@@ -19,7 +19,7 @@ class SimplePresenter with HermepPresenter<SimpleModel, SimpleView> {
     this.viewModel.counter = 0;
   }
 
-  onPlusTap() {
+  void onPlusTap() {
     this.viewInterface.incrementCounter();
     this.refreshView();
   }

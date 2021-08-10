@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'pages/simple/simple.dart';
-import 'pages/simple/simple_presenter.dart';
+import 'utils/pages/simple/simple.dart';
+import 'utils/pages/simple/simple_presenter.dart';
 
 class SimpleViewTest extends SimpleView {
   @override

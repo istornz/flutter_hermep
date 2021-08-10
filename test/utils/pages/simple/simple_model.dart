@@ -1,4 +1,3 @@
-
 import 'package:hermep/hermep.dart';
 
 class SimpleModel with HermepModel {
