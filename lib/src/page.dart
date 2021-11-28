@@ -23,7 +23,7 @@ abstract class HermepPage<M, P, W extends StatefulWidget> extends State<W> {
   /// create all your animations here and assign them to ```animationControllers```
   void createAnimations();
 
-  /// called after the view was rendered 
+  /// called after the view was rendered
   void afterViewInit();
 
   @override
@@ -72,6 +72,13 @@ abstract class HermepPage<M, P, W extends StatefulWidget> extends State<W> {
     });
   }
 
-  /// refresh the page view
-  void refreshView() => setState(() {});
+  /// refresh the page view only if widget is mounted
+  /// use force to force refresh even if widget is alreay mounted
+  void refreshView({bool? force, void Function()? fn}) {
+    if (!mounted || (force != null && !force)) {
+      return;
+    }
+
+    setState(fn ?? () {});
+  }
 }

@@ -1,3 +1,8 @@
+## 0.1.7
+- Automatically refresh the view if widget is monted
+- Can force refresh
+- Add a way to pass a callback to set state
+
 ## 0.1.6
 
 - Add a way to test Hermep page
