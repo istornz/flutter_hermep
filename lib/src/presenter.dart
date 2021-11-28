@@ -12,7 +12,10 @@ abstract class HermepPresenter<M, I> {
   void dispose();
 
   /// refresh the view
-  void refreshView() {
-    (this.viewInterface as HermepPage).refreshView();
+  void refreshView({bool? force, void Function()? fn}) {
+    (this.viewInterface as HermepPage).refreshView(
+      force: force,
+      fn: fn,
+    );
   }
 }

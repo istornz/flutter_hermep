@@ -1,5 +1,8 @@
+## 0.1.7+1
+- Expose force & fn callback in refresh view
+
 ## 0.1.7
-- Automatically refresh the view if widget is monted
+- Automatically refresh the view if widget is mounted
 - Can force refresh
 - Add a way to pass a callback to set state
 
