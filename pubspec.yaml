@@ -1,6 +1,6 @@
 name: hermep
 description: State management library which let developer full access to widget state
-version: 0.1.7+1
+version: 0.1.8
 homepage: https://dimitridessus.fr
 repository: https://github.com/istornz/Hermep
 

@@ -1,3 +1,7 @@
+## 0.1.8
+- Support Flutter 3
+- Dependencies upgrade
+
 ## 0.1.7+1
 - Expose force & fn callback in refresh view
 

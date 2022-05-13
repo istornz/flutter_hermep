@@ -1,4 +1,3 @@
-import 'package:flutter/animation.dart';
 import 'package:flutter/widgets.dart';
 import 'presenter.dart';
 
@@ -38,7 +37,7 @@ abstract class HermepPage<M, P, W extends StatefulWidget> extends State<W> {
     this._initPage(this.createPresenter());
     this.createAnimations();
     this._initAnimations();
-    WidgetsBinding.instance!.addPostFrameCallback((_) => afterViewInit());
+    WidgetsBinding.instance.addPostFrameCallback((_) => afterViewInit());
   }
 
   /// page initializer which create & assign view model & presenter
