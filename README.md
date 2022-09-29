@@ -1,5 +1,5 @@
 <p align="center">
-  <img style="max-width: 400px" src="https://raw.githubusercontent.com/istornz/hermep/main/.github/images/hermep.png" />
+  <img style="max-width: 400px" src="https://raw.githubusercontent.com/istornz/hermep/master/.github/images/hermep.png" />
 </p>
 
 # Hermep
@@ -143,7 +143,7 @@ You can now check all your **model data** & **trigger** some functions from your
 ## Psst 🤫 !
 
 <p align="center">
-  <img width="300px" src="https://raw.githubusercontent.com/istornz/hermep/main/.github/images/koby.png" />
+  <img width="300px" src="https://raw.githubusercontent.com/istornz/hermep/master/.github/images/koby.png" />
 </p>
 
 You can use Hermep with [Koby for VSCode](https://marketplace.visualstudio.com/items?itemName=istornz.koby) to generate **all needed files** (presenter, model & page) with 2 clicks 🤩.
