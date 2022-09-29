@@ -1,5 +1,5 @@
 <p align="center">
-  <img style="max-width: 400px" src="https://raw.githubusercontent.com/istornz/hermep/master/.github/images/hermep.png" />
+  <img style="max-width: 300px" src="https://raw.githubusercontent.com/istornz/hermep/master/.github/images/hermep.png" />
 </p>
 
 # Hermep
