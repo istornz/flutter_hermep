@@ -63,7 +63,7 @@ class _HomePageState extends HermepPage<HomeModel, HomePresenter, HomePage>
   void createAnimations() {}
 
   @override
-  void afterViewInit() { }
+  void afterViewInit() {}
 
   @override
   HermepPresenter createPresenter() => HomePresenter(this);

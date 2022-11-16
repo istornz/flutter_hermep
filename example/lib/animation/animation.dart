@@ -22,7 +22,7 @@ class _AnimationPageState
   HermepPresenter createPresenter() => AnimationPresenter(this);
 
   @override
-  void afterViewInit() { }
+  void afterViewInit() {}
 
   @override
   Widget build(BuildContext context) {

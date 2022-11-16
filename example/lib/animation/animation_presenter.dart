@@ -24,6 +24,7 @@ class AnimationPresenter with HermepPresenter<AnimationModel, AnimationView> {
   onPlusTap() {
     this.viewInterface.incrementCounter();
     this.refreshView();
-    this.viewModel.triggerAnimation1.value = !this.viewModel.triggerAnimation1.value;
+    this.viewModel.triggerAnimation1.value =
+        !this.viewModel.triggerAnimation1.value;
   }
 }

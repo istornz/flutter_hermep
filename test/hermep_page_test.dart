@@ -32,7 +32,8 @@ void main() {
       await _beforeEach(tester);
 
       expect(find.text('Simple'), findsOneWidget);
-      expect(find.text('You have pushed the button this many times:'), findsOneWidget);
+      expect(find.text('You have pushed the button this many times:'),
+          findsOneWidget);
       expect(find.byKey(ValueKey('Increment_Button')), findsOneWidget);
     });
 
