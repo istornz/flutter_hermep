@@ -4,7 +4,7 @@ import 'presenter.dart';
 /// the view interface to call all view logic
 abstract class HermepView {}
 
-/// create a MVVM pattern page
+/// create a MVC pattern page
 abstract class HermepPage<M, P, W extends StatefulWidget> extends State<W> {
   /// contain all animation controllers mapped with
   /// the value notifier associated to launch/stop the animation

@@ -1,3 +1,5 @@
+import 'package:flutter/widgets.dart';
+
 import 'page.dart';
 
 /// contain the data logic & present it to view
@@ -10,6 +12,9 @@ abstract class HermepPresenter<M, I> {
 
   /// dispose the presenter
   void dispose();
+
+  /// get page context
+  BuildContext get context => (this.viewInterface as HermepPage).context;
 
   /// refresh the view
   void refreshView({bool? force, void Function()? fn}) {
