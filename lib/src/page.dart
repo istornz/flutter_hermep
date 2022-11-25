@@ -67,8 +67,10 @@ abstract class HermepPage<M, P, W extends StatefulWidget> extends State<W> {
     (this.presenter as HermepPresenter).dispose();
     this.animationControllers.forEach((notifier, animation) {
       notifier.dispose();
+      animation.stop();
       animation.dispose();
     });
+    this.animationControllers = {};
   }
 
   /// refresh the page view only if widget is mounted
