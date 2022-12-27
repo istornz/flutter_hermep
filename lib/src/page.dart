@@ -74,7 +74,7 @@ abstract class HermepPage<M, P, W extends StatefulWidget> extends State<W> {
   }
 
   /// refresh the page view only if widget is mounted
-  /// use force to force refresh even if widget is alreay mounted
+  /// use force to force refresh even if widget is already mounted
   void refreshView({bool? force, void Function()? fn}) {
     if (!mounted || (force != null && !force)) {
       return;
