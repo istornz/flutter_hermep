@@ -10,8 +10,7 @@
   <a href="https://pub.dev/packages/hermep"><img src="https://img.shields.io/pub/v/hermep?style=for-the-badge" style="margin-right: 10px" /></a>
   <a href="https://github.com/istornz/hermep"><img src="https://img.shields.io/github/stars/istornz/hermep?style=for-the-badge" /></a>
 </div>
-
-# Hermep
+<br />
 
 An **MVVM state** management library which let **full access** to widget state.
 
@@ -152,7 +151,7 @@ You can now check all your **model data** & **trigger** some functions from your
 ## Psst 🤫 !
 
 <p align="center">
-  <img width="300px" src="https://github.com/istornz/Hermep/blob/master/.github/images/koby.jpg?raw=true" />
+  <img src="https://github.com/istornz/Hermep/blob/master/.github/images/koby.jpg?raw=true" />
 </p>
 
 You can use Hermep with [Koby for VSCode](https://marketplace.visualstudio.com/items?itemName=istornz.koby) to generate **all needed files** (presenter, model & page) with 2 clicks 🤩.
