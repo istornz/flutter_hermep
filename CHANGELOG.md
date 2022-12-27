@@ -1,3 +1,8 @@
+## 1.0.0
+- Update logo for Hermep & Koby.
+- Update README.md.
+- Dependencies upgrade.
+
 ## 0.1.9
 - Add context in presenter
 

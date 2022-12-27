@@ -1,6 +1,15 @@
 <p align="center">
-  <img style="max-width: 300px" src="https://raw.githubusercontent.com/istornz/hermep/master/.github/images/hermep.png" />
+  <img src="https://github.com/istornz/Hermep/blob/master/.github/images/hermep.jpg?raw=true"/>
 </p>
+<br />
+
+<div align="center" style="display: flex;align-items: center;justify-content: center;">
+  <a href="https://pub.dev/packages/hermep"><img src="https://img.shields.io/pub/points/hermep?style=for-the-badge" style="margin-right: 10px" /></a>
+  <a href="https://pub.dev/packages/hermep"><img src="https://img.shields.io/pub/likes/hermep?style=for-the-badge" style="margin-right: 10px" /></a>
+  <a href="https://pub.dev/packages/hermep"><img src="https://img.shields.io/pub/popularity/hermep?style=for-the-badge" style="margin-right: 10px" /></a>
+  <a href="https://pub.dev/packages/hermep"><img src="https://img.shields.io/pub/v/hermep?style=for-the-badge" style="margin-right: 10px" /></a>
+  <a href="https://github.com/istornz/hermep"><img src="https://img.shields.io/github/stars/istornz/hermep?style=for-the-badge" /></a>
+</div>
 
 # Hermep
 
@@ -143,7 +152,11 @@ You can now check all your **model data** & **trigger** some functions from your
 ## Psst 🤫 !
 
 <p align="center">
-  <img width="300px" src="https://raw.githubusercontent.com/istornz/hermep/master/.github/images/koby.png" />
+  <img width="300px" src="https://github.com/istornz/Hermep/blob/master/.github/images/koby.jpg?raw=true" />
 </p>
 
 You can use Hermep with [Koby for VSCode](https://marketplace.visualstudio.com/items?itemName=istornz.koby) to generate **all needed files** (presenter, model & page) with 2 clicks 🤩.
+
+## 👥 Contributions
+
+Contributions are welcome. Contribute by creating a PR or create an issue 🎉.
