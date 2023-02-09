@@ -1,12 +1,16 @@
 name: hermep
 description: State management library which let developer full access to widget state
-version: 1.0.0
+version: 1.0.0+1
 homepage: https://dimitridessus.fr
 repository: https://github.com/istornz/Hermep
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.17.0"
+
+screenshots:
+  - description: 'Hermep logo'
+    path: images/hermep.jpg
 
 dependencies:
   flutter:

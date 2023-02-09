@@ -1,3 +1,7 @@
+## 1.0.0+1
+
+- Add screenshot logo in pubspec.yaml
+
 ## 1.0.0
 - Update logo for Hermep & Koby.
 - Update README.md.
