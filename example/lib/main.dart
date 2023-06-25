@@ -83,7 +83,7 @@ class _HomePageState extends HermepPage<HomeModel, HomePresenter, HomePage>
             ),
             Text(
               this.viewModel.counter.toString(),
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
         ),

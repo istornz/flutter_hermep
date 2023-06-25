@@ -3,7 +3,7 @@ import 'package:flutter/widgets.dart';
 import 'page.dart';
 
 /// contain the data logic & present it to view
-abstract class HermepPresenter<M, I> {
+mixin HermepPresenter<M, I> {
   late M viewModel;
   late I viewInterface;
 

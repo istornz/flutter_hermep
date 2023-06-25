@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'utils/pages/simple/simple.dart';
 import 'utils/pages/simple/simple_presenter.dart';
 
-class SimpleViewTest extends SimpleView {
+class SimpleViewTest with SimpleView {
   @override
   void incrementCounter() {}
 }

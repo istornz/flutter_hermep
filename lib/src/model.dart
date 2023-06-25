@@ -1,2 +1,2 @@
 /// all data arguments
-class HermepModel {}
+mixin HermepModel {}

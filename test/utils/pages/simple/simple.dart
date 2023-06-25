@@ -5,7 +5,7 @@ import 'package:hermep/hermep.dart';
 import 'simple_model.dart';
 import 'simple_presenter.dart';
 
-abstract class SimpleView {
+mixin SimpleView {
   void incrementCounter();
 }
 
@@ -44,7 +44,7 @@ class _SimplePageState
             ),
             Text(
               this.viewModel.counter.toString(),
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
         ),

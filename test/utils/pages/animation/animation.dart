@@ -4,7 +4,7 @@ import 'package:hermep/hermep.dart';
 import 'animation_presenter.dart';
 import 'animation_model.dart';
 
-abstract class AnimationView {
+mixin AnimationView {
   void incrementCounter();
 }
 
@@ -45,7 +45,7 @@ class _AnimationPageState
             ),
             Text(
               this.viewModel.counter.toString(),
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
         ),

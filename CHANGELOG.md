@@ -1,3 +1,7 @@
+## 1.1.0
+
+- Upgrade Dart sdk to 3.
+
 ## 1.0.0+1
 
 - Add screenshot logo in pubspec.yaml
