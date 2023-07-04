@@ -65,6 +65,11 @@ abstract class HermepPage<M, P, W extends StatefulWidget> extends State<W> {
   /// all animation controllers was disposed
   void disposePage() {
     (this.presenter as HermepPresenter).dispose();
+    this.disposeAnimationController();
+  }
+
+  /// dispose all animation controllers
+  void disposeAnimationController() {
     this.animationControllers.forEach((notifier, animation) {
       notifier.dispose();
       animation.stop();

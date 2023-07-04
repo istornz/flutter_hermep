@@ -1,3 +1,8 @@
+## 1.1.1
+
+- Add dispose animation method.
+- Dependencies upgrade.
+
 ## 1.1.0
 
 - Upgrade Dart sdk to 3.

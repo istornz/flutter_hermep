@@ -45,7 +45,7 @@ class _AnimationPageState
             ),
             Text(
               this.viewModel.counter.toString(),
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
         ),
@@ -54,7 +54,7 @@ class _AnimationPageState
         onPressed: this.presenter.onPlusTap,
         tooltip: 'Increment',
         child: Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 
@@ -67,7 +67,7 @@ class _AnimationPageState
   void createAnimations() {
     this.animationControllers = {
       this.viewModel.triggerAnimation1: AnimationController(
-        duration: const Duration(seconds: 2),
+        duration: const Duration(seconds: 10),
         vsync: this,
       )
     };
