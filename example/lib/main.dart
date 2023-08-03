@@ -45,7 +45,7 @@ class HomePresenter with HermepPresenter<HomeModel, HomeView> {
 }
 
 /* PAGE VIEW */
-abstract class HomeView {
+mixin HomeView {
   void incrementCounter();
 }
 
@@ -59,12 +59,6 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends HermepPage<HomeModel, HomePresenter, HomePage>
     with HomeView {
-  @override
-  void createAnimations() {}
-
-  @override
-  void afterViewInit() {}
-
   @override
   HermepPresenter createPresenter() => HomePresenter(this);
 

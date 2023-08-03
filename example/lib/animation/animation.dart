@@ -4,7 +4,7 @@ import 'package:hermep/hermep.dart';
 import 'animation_presenter.dart';
 import 'animation_viewmodel.dart';
 
-abstract class AnimationView {
+mixin AnimationView {
   void incrementCounter();
 }
 

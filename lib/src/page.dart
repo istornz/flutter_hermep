@@ -20,10 +20,10 @@ abstract class HermepPage<M, P, W extends StatefulWidget> extends State<W> {
   HermepPresenter createPresenter();
 
   /// create all your animations here and assign them to ```animationControllers```
-  void createAnimations();
+  void createAnimations() { }
 
   /// called after the view was rendered
-  void afterViewInit();
+  void afterViewInit() { }
 
   @override
   void dispose() {
