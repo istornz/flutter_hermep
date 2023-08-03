@@ -52,7 +52,7 @@ class YourClassPresenter with HermepPresenter<YourClassModel, YourClassView> {
 - Create the **page** file ```<your_class>.dart```.
 
 ```dart
-abstract class YourClassView {}
+mixin YourClassView {}
 
 class YourClassPage extends StatefulWidget {
   YourClassPage({Key? key}) : super(key: key);

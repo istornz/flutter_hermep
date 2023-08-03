@@ -1,3 +1,9 @@
+## 1.2.0
+
+- Be able to not define `createAnimations()` & `afterViewInit()` methods.
+- Change abstract class to mixin.
+- Upgrade example Dart sdk to 3.
+
 ## 1.1.1
 
 - Add dispose animation method.
