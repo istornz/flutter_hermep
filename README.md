@@ -14,7 +14,7 @@
 
 <div align="center">
   <a href="https://radion-app.com" target="_blank" alt="Radion - Ultimate gaming app">
-    <img src="https://raw.githubusercontent.com/istornz/hermep/main/images/radion.png?raw=true" width="600px" alt="Radion banner - Ultimate gaming app" />
+    <img src="https://raw.githubusercontent.com/istornz/hermep/master/images/radion.png?raw=true" width="600px" alt="Radion banner - Ultimate gaming app" />
   </a>
 </div>
 <br />
