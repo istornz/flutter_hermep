@@ -1,3 +1,8 @@
+## 1.2.1
+
+- Upgrade dependencies.
+- Update README.md links.
+
 ## 1.2.0
 
 - Be able to not define `createAnimations()` & `afterViewInit()` methods.
