@@ -16,6 +16,9 @@ mixin HermepPresenter<M, I> {
   /// get page context
   BuildContext get context => (this.viewInterface as HermepPage).context;
 
+  // get page mounted
+  bool get mounted => (this.viewInterface as HermepPage).mounted;
+
   /// refresh the view
   void refreshView({bool? force, void Function()? fn}) {
     (this.viewInterface as HermepPage).refreshView(

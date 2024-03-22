@@ -1,3 +1,8 @@
+## 1.2.2
+
+- Be able to get mounted value from presenter.
+- Upgrade dependencies.
+
 ## 1.2.1
 
 - Upgrade dependencies.
