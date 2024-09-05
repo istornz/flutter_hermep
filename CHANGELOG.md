@@ -1,3 +1,8 @@
+## 1.2.4
+
+- Convert images to webp.
+- Upgrade dependencies.
+
 ## 1.2.3
 
 - Upgrade dependencies.

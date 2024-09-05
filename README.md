@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/istornz/hermep/master/images/hermep.jpg?raw=true"/>
+  <img src="https://raw.githubusercontent.com/istornz/hermep/master/images/hermep.webp?raw=true"/>
 </p>
 <br />
 
@@ -14,7 +14,7 @@
 
 <div align="center">
   <a href="https://radion-app.com" target="_blank" alt="Radion - Ultimate gaming app">
-    <img src="https://raw.githubusercontent.com/istornz/hermep/master/images/radion.png?raw=true" width="600px" alt="Radion banner - Ultimate gaming app" />
+    <img src="https://raw.githubusercontent.com/istornz/hermep/master/images/radion.webp?raw=true" width="600px" alt="Radion banner - Ultimate gaming app" />
   </a>
 </div>
 <br />
@@ -158,7 +158,7 @@ You can now check all your **model data** & **trigger** some functions from your
 ## Psst 🤫 !
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/istornz/hermep/master/images/koby.jpg?raw=true" />
+  <img src="https://raw.githubusercontent.com/istornz/hermep/master/images/koby.webp?raw=true" />
 </p>
 
 You can use Hermep with [Koby for VSCode](https://marketplace.visualstudio.com/items?itemName=istornz.koby) to generate **all needed files** (presenter, model & page) with 2 clicks 🤩.
