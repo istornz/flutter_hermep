@@ -1,3 +1,9 @@
+## 1.2.5
+
+- Fix comments.
+- Do not expose anymore `disposePage()` method.
+- Upgrade dependencies.
+
 ## 1.2.4
 
 - Convert images to webp.

@@ -27,7 +27,7 @@ abstract class HermepPage<M, P, W extends StatefulWidget> extends State<W> {
 
   @override
   void dispose() {
-    this.disposePage();
+    this._disposePage();
     super.dispose();
   }
 
@@ -63,7 +63,7 @@ abstract class HermepPage<M, P, W extends StatefulWidget> extends State<W> {
 
   /// called when page has been disposed
   /// all animation controllers was disposed
-  void disposePage() {
+  void _disposePage() {
     (this.presenter as HermepPresenter).dispose();
     this.disposeAnimationController();
   }

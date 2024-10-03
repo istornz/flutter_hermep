@@ -7,6 +7,8 @@ mixin HermepPresenter<M, I> {
   late M viewModel;
   late I viewInterface;
 
+  get _hermepViewInterface => (this.viewInterface as HermepPage);
+
   /// initialize data
   void init();
 
@@ -14,10 +16,10 @@ mixin HermepPresenter<M, I> {
   void dispose();
 
   /// get page context
-  BuildContext get context => (this.viewInterface as HermepPage).context;
+  BuildContext get context => _hermepViewInterface.context;
 
-  // get page mounted
-  bool get mounted => (this.viewInterface as HermepPage).mounted;
+  /// get page mounted
+  bool get mounted => _hermepViewInterface.mounted;
 
   /// refresh the view
   void refreshView({bool? force, void Function()? fn}) {
