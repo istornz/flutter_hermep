@@ -1,3 +1,6 @@
+## 1.2.6
+- Upgrade dependencies.
+
 ## 1.2.5
 
 - Fix comments.
